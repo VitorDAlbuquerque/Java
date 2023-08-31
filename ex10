@@ -1,0 +1,21 @@
+package com.company;
+
+import java.util.Scanner;
+
+public class ex10 {
+    public static void main (String[] args){
+
+        double n1, n2;
+
+        Scanner a = new Scanner(System.in);
+
+        System.out.println("Digite oa primeira nota");
+
+        n1 = a.nextDouble();
+
+        System.out.println("Digite a segunda nota");
+        n2 = a.nextDouble();
+
+        System.out.println((n1+n2)/2);
+    }
+}
