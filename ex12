@@ -1,0 +1,20 @@
+package com.company;
+import java.util.Scanner;
+public class ex12 {
+    public static void main(String[] args){
+
+        double tempf, tempc;
+
+        Scanner a = new Scanner(System.in);
+
+        System.out.println("Digite a temperatura em farenheit: ");
+
+        tempf = a.nextDouble();
+
+        tempc = (tempf-32) * 5/9 ;
+
+        System.out.println(tempc);
+
+    }
+
+}
