@@ -1,0 +1,23 @@
+package com.company;
+import java.util.Scanner;
+public class ex11 {
+
+    public static void main (String[] args){
+
+        double dist, l;
+
+        Scanner a = new Scanner(System.in);
+        System.out.println("Digite a distância percorrida: ");
+        dist = a.nextDouble();
+
+        System.out.println("Digite a quantidade de litros: ");
+
+        l = a.nextDouble();
+
+        double cmedio = dist / l;
+
+        System.out.println("O consumo médo é de: "+cmedio);
+
+    }
+
+}
