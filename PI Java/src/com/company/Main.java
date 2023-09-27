@@ -27,7 +27,7 @@ public class Main {
 
                 while (o == 0){
                     String r = JOptionPane.showInputDialog("Deseja deixar uma avaliação?");
-                    if ( a.equalsIgnoreCase("sim")) {
+                    if ( r.equalsIgnoreCase("sim")) {
                         String r1 = JOptionPane.showInputDialog("Digite a sua nota: ");
                         JOptionPane.showMessageDialog(null, "Obrigado! Volte sempre!");
                         System.exit(0);
