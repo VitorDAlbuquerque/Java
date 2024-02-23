@@ -1,31 +1,34 @@
-package com.company;
+//Multiplicar um número pelo outro sem usar while e sem usar *
+
 
 import java.util.Scanner;
-
 public class Main {
 
-    public static void a (String[] args) {
 
 
-        double valorp, vfinal;
-        int codp, qtdp;
+    private static int c=1;
+    private static int soma;
+    private static int n1=0;
 
-        Scanner a = new Scanner(System.in);
-
-        System.out.println("Digite o código da peça");
-        codp = a.nextInt();
+    private static int n2=0;
 
 
-        System.out.println("Digite o valor da peça");
-        valorp = a.nextDouble();
+    public static void main(String[] args) {
+        Scanner s = new Scanner(System.in);
+    n1 = s.nextInt();
+    n2 = s.nextInt();
+            metodo();
 
-        System.out.println("Digite a quantidade de peças");
-        qtdp = a.nextInt();
+        }
 
-        vfinal = qtdp * valorp;
+        public static void metodo(){
 
-        System.out.println("O valor final é: " +vfinal+  " O código da peça é: " +codp);
+        soma +=n1;
+        System.out.println(soma);
 
-
+        if (c<n2){
+            c++;
+            metodo();
+        }
     }
-}
+    }
