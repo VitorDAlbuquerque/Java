@@ -1,0 +1,36 @@
+package com.company;
+
+public class Main {
+
+    public static void main(String[] args) {
+
+        int n1[] = {231,3,4,123,1452,524,234,123};
+
+
+
+
+        for(int i = 0; i<n1.length; i++){
+
+            for (int dsa=i; dsa<n1.length; dsa++){
+
+            if (n1[i] > n1[dsa])
+            {
+                int guarda = n1[i];
+                n1[i]= n1[dsa];
+                n1[dsa] = guarda;
+
+            }
+
+
+
+
+            }
+
+
+            System.out.println(n1[i]);
+
+        }
+        
+
+    }
+}
